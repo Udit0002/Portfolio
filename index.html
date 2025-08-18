@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/profile2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udit Chaudhary</title>
+  </head>
+  <body style="margin:0; background: transparent;">
+    <!-- Vanta Background -->
+    <div id="vanta-bg" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1;"></div>
+
+    <!-- React App Mount -->
+    <div id="root" style="position: relative; z-index: 1;"></div>
+
+    <!-- Vanta Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script>
+      VANTA.WAVES({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xa0018,
+        shininess: 51.00,
+        waveHeight: 8.50,
+        waveSpeed: 0.70,
+        zoom: 0.99
+      });
+    </script>
+
+    <!-- React App Script -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
