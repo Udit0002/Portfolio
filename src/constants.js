@@ -40,7 +40,7 @@ import collegeLogo from './assets/education_logo/ben.png';
 import Fintracklogo from './assets/work_logo/Fintrack.png';
 import Nexuslogo from './assets/work_logo/Nexus.png';
 import switchStreamLogo from './assets/work_logo/switchstreamlogo.png';
-import flexLogo from './assets/work_logo/flexApp.png';
+import flexLogo from './assets/work_logo/FlexApp.png';
 import chatbotLogo from './assets/work_logo/bhishma.png';
 
 export const SkillsInfo = [
