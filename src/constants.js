@@ -38,6 +38,7 @@ import collegeLogo from './assets/education_logo/ben.png';
 
 // Project Section Logo's
 import Fintracklogo from './assets/work_logo/Fintrack.png';
+import ShopifyLogo from './assets/work_logo/Shopify.png';
 import Nexuslogo from './assets/work_logo/Nexus.png';
 import switchStreamLogo from './assets/work_logo/switchstreamlogo.png';
 import flexLogo from './assets/work_logo/FlexApp.png';
@@ -139,7 +140,32 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 0,
+      id: 2,
+      title: "Shoplytics - Shopify Ingest & Insights Dashboard",
+      description:
+        "A multi-tenant Shopify analytics platform that ingests customers, orders, and products via APIs, webhooks, and cron jobs into a Supabase backend — providing real-time insights like revenue trends, top customers, and growth metrics through a modern Next.js dashboard.",
+      image: ShopifyLogo, 
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "React Query",
+        "Recharts",
+        "Node.js",
+        "Express",
+        "Prisma",
+        "Supabase",
+        "Shopify Admin API",
+        "Webhooks",
+        "Railway",
+        "Vercel"
+      ],
+      github: "https://github.com/Udit0002/shopify-ingest-backend", 
+      webapp: "https://shoplytics.uditchaudhary.in/",      
+    },
+
+    {
+      id: 1,
       title: "Fintrack-X",
       description:
         "A modern personal finance tracking platform that offers real-time dashboards, smart expense categorization, budget planning, and goal tracking — designed to give users clarity, control, and confidence in managing their money.",
@@ -149,7 +175,7 @@ export const SkillsInfo = [
       webapp: "https://fintrack-x.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Nexuss",
       description: "Nexuss is an AI-powered alumni-student engagement platform that enables smart mentorship and networking through AI-driven recommendations, real-time chat & video calls, secure authentication, alumni location maps, and interactive feeds—helping institutions build stronger, career-focused communities.",
       image: Nexuslogo,
@@ -158,7 +184,7 @@ export const SkillsInfo = [
       webapp: "/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Flex App",
       description:
         "A cross-platform fitness tracking application built with React Native that offers personalized workout plans, water intake logging, and calorie tracking. Designed with a sleek UI and RESTful backend, it empowers users to monitor and improve their daily health routines.",
@@ -169,7 +195,7 @@ export const SkillsInfo = [
 
     },
     {
-      id: 3,
+      id: 4,
       title: "SwitchStream",
       description:
         "A Next.js and TypeScript-based live streaming platform designed for both streamers and viewers. Built with Prisma and Vercel Postgres, integrated with Livekit for secure streaming and Clerk for authentication, SwitchStream delivers a seamless, engaging, and community-focused streaming experience.",
@@ -180,7 +206,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Namami Gange Awareness Chatbot",
       description:
         "A smart AI-powered chatbot featuring Chacha Chaudhary, designed as part of a government problem statement by the Ministry of Jal Shakti under the Namami Gange Programme. The chatbot uses interactive storytelling, quizzes, and games to educate children about river conservation. Built using TensorFlow/Dialogflow with a responsive frontend (HTML, CSS, JS), it provides real-time updates and environmental awareness. This project won 1st place in our college’s annual project showcase.",
