@@ -30,6 +30,7 @@ import supabaseLogo from './assets/tech_logo/supabase.webp';
 
 // Experience Section Logo's
 import drdoLogo from './assets/company_logo/drdo.png';
+import infavyLogo from './assets/company_logo/infavylogo.webp';
 
 // Education Section Logo's
 import schoolLogo from './assets/education_logo/school.png';
@@ -97,6 +98,24 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
+    {
+      id: 1,
+      img: infavyLogo,
+      role: "Software Development Intern",
+      company: "Infavy Interactive Private Limited",
+      date: "August 2025 – Present",
+      desc: "Working on scalable RESTful backend services for high-traffic creator platforms, focusing on API optimization, performance enhancement, and reliability. Collaborating across teams to improve platform stability and user experience while building production-ready backend systems.",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "MongoDB",
+        "PostgreSQL",
+        "Prisma",
+        "System Design",
+        "Backend Development",
+      ],
+    },
     {
       id: 0,
       img: drdoLogo, 
