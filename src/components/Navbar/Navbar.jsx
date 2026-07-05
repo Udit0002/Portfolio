@@ -7,13 +7,14 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const menuItems = [
-    { id: "about", label: "About" },
-    { id: "skills", label: "Skills" },
-    { id: "experience", label: "Experience" },
-    { id: "work", label: "Projects" },
-    { id: "education", label: "Education" },
-    { id: "contact", label: "Contact" },
-  ];
+  { id: "about", label: "About" },
+  { id: "skills", label: "Skills" },
+  { id: "experience", label: "Experience" },
+  { id: "research", label: "Research" }, // added
+  { id: "work", label: "Projects" },
+  { id: "education", label: "Education" },
+  { id: "contact", label: "Contact" },
+];
 
   // Scroll blur effect
   useEffect(() => {

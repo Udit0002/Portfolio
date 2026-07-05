@@ -11,6 +11,7 @@ import BlurBlob from './components/BlurBlob';
 import LeftNav from "./components/LeftNav/LeftNav";
 import LeftSidebar from "./components/LeftNav/LeftNav";
 import MobileSocials from "./MobileSocials";
+import Research from "./components/Research/Research";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <About />
         <Skills />
         <Experience />
+        <Research />
         <Work />
         <Education />
         <Contact />

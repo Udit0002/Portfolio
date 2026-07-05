@@ -156,6 +156,51 @@ export const SkillsInfo = [
       degree: "Senior Secondary (Class 12) – PCM",
     },
   ];
+
+  export const researchPapers = [
+  {
+    id: 1,
+    title: "Enhancing Sentiment Analysis and Predictive Modeling of E-commerce Using Multi-Model Fusion of BERT, GNN, and LightGBM",
+    publisher: "IEEE Xplore",
+    conference: "IEEE Conference Publication",
+    date: "2025",
+    status: "Published",
+    desc: "Developed a hybrid sentiment analysis framework integrating BERT, GNN, and LightGBM for e-commerce review prediction, achieving 94.6% accuracy with improved contextual understanding and interpretability.",
+    skills: [
+  "Python",
+  "BERT",
+  "Graph Neural Networks",
+  "LightGBM",
+  "NLP",
+  "Sentiment Analysis",
+  "Deep Learning",
+  "Machine Learning",
+  "Predictive Modeling"
+],
+    link: "https://ieeexplore.ieee.org/abstract/document/11350602",
+  },
+  {
+  id: 2,
+  title: "Artificial Intelligence-Based Risk Management in Construction Projects",
+  publisher: "IEEE Xplore",
+  conference: "IEEE Conference Publication",
+  date: "2025",
+  status: "Published",
+  desc: "Proposed an AI-driven risk management framework for construction projects using Machine Learning models like SVM and Decision Trees to predict delays and optimize project decision-making.",
+  skills: [
+    "Python",
+    "Machine Learning",
+    "SVM",
+    "Decision Trees",
+    "Risk Analysis",
+    "Predictive Modeling",
+    "Data Analysis",
+    "Artificial Intelligence",
+    "Construction Management"
+  ],
+  link: "https://ieeexplore.ieee.org/document/11337297",
+},
+];
   
   export const projects = [
     {
